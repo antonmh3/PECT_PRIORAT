@@ -1,31 +1,36 @@
 <!DOCTYPE html>
 <html>
     <head>
-     <meta name="viewport" content="width=Device-width, initial-scale=1.0"
-     <title> Inici PECT Priorat</title>
-     <link href="inici_style.css" rel="stylesheet">
-    <body>
+    <meta name="viewport" content="width=Device-width, initial-scale=1.0">
+     <link href="contacte_style.css" rel="stylesheet">
+ </head>
+   <body>
     <header class="cap">
-    	<div class="menu">
-    		<a href= "index.html">
-    		<img class= "logo"src="Imatges/Logo.png"height="100px" width="200px">
-    		</a>
-    			<nav class="navigation">
-    				<ul>
-    					<li><a href="index.html">Inici</a></li>
+        <div class="menu">
+            <a href= "index.html">
+            <img class= "logo"src="Imatges/Logo.png">
+            </a>
+                <nav class="navigation">
+                    <ul>
+                        <li><a href="index.html">Inici</a></li>
                         <li><a href="Projecte.html">Sobre el projecte</a></li>
                         <li><a href="Terres.html">Banc de terres</a></li>
                         <li><a href="Contacte.html">Contacte</a></li>
-    				</ul>
-    			</nav>
-    	</div>
+                    </ul>
+                </nav>
+        </div>
     </header>
-    	
+    <main class= "main">
+        <form>
+            <h1 class="top">CONTACTE</h1>
+            <input type="text" name="Nom"placeholder="Nom">
+            <input type="text" name="Correu electronic"placeholder="Correu electronic">
+            <input type="text" name="telefon"placeholder="telefon">
+            <input type="text" name="Assumpte"placeholder="Assumpte">
+            <textarea name="missatge" placeholder="Escriu aqui el teu missatge">
+            </textarea>
+            <input type="button" value="Enviar" id="enviar">
+        </form>
+    </main>
     </body>
-
-
-
-
-
-
 </html>
